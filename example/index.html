@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="index.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var test1 = /^\d*$/g;
+      var test2 = /^\d{3}$/g;
+      var abc = {
+        fun1: function(inputVal) {
+          return test1.test(inputVal);
+        },
+        fun2: function(inputVal) {
+          return test2.test(inputVal);
+        }
+      }
+    </script>
+  </body>
+</html>
